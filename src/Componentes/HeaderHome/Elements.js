@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import fondoImg from '../../Assets/imagenes/fondo.svg'
+
 import {keyframes} from 'styled-components'
-import asteris from '../../Assets/imagenes/astericos.svg'
+
 
 export const Fondo = styled.div`
     grid-column-start: uno;

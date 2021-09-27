@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col1, Col2, SectionInverse,Texto, Deco, DecoCont, VideoC, VideoCont,Wrap, DecoCont2,TextoCont} from './Elements'
+import { Col1, Col2, SectionInverse,Texto, Deco, DecoCont, VideoCont,Wrap, DecoCont2,TextoCont} from './Elements'
 import pibe from '../../Assets/imagenes/mia.jpg'
 import './foto.scss'
 const About = ({imagen}) => {
@@ -33,12 +33,12 @@ const About = ({imagen}) => {
                         </DecoCont>
                         
                         <VideoCont>
-                            <div class="c-glitch" style={{backgroundImage:` url(${pibe})`}}>
-                                <div class="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
-                                <div class="c-glitch__img"style={{backgroundImage:` url(${pibe})`}}></div>
-                                <div class="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
-                                <div class="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
-                                <div class="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
+                            <div className="c-glitch" style={{backgroundImage:` url(${pibe})`}}>
+                                <div className="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
+                                <div className="c-glitch__img"style={{backgroundImage:` url(${pibe})`}}></div>
+                                <div className="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
+                                <div className="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
+                                <div className="c-glitch__img" style={{backgroundImage:` url(${pibe})`}}></div>
                             </div>
                         </VideoCont>
                         <DecoCont2>

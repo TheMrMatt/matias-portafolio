@@ -68,7 +68,7 @@ export const DataProvider = ({children}) => {
 
     function getTema(iD, tema){
         const dev = tema.filter(p => p.id === iD)
-        console.log('id',dev[0].separadores)
+        
         
         dispatch({
             type:'GET_TEMA',

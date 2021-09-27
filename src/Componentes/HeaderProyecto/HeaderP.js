@@ -13,7 +13,7 @@ const HeaderP = ({data,sentido, alt}) => {
                     <Identificador>.{data.id}</Identificador>
                     <TecsWrap>
                         {data.tecnologia.map( tec => (
-                            <Tecs>{tec}</Tecs>    
+                            <Tecs key={tec}>{tec}</Tecs>    
                         ))}
                     </TecsWrap>
                 </Desc>

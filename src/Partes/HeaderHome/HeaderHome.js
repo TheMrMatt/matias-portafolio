@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section } from '../../Componentes/Commons/Elements'
-import {Lateral,Grafic, Fondo, Bienvenido, Matias, Copy,MatiasCont, Asteriscos, CopyCont, TextCont, Matias2, MatiasCont2, Ilus} from '../../Componentes/HeaderHome/Elements'
-import letras from '../../Assets/imagenes/letras.svg'
+import {Lateral,Grafic, Fondo, Bienvenido, Copy,MatiasCont, Asteriscos, CopyCont, TextCont, Ilus} from '../../Componentes/HeaderHome/Elements'
+
 import './Text.scss'
 
 const HeaderHome = ({imagen, letra, fondo}) => {
@@ -14,7 +14,7 @@ const HeaderHome = ({imagen, letra, fondo}) => {
                     
                     <MatiasCont>
                         
-                    <h1 class="glitch">
+                    <h1 className="glitch">
                         <span aria-hidden="true">
                             MATIAS<br/>
                                   <br/>

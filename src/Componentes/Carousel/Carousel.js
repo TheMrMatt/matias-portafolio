@@ -11,8 +11,7 @@ const Carousel = ({data, sentido}) => {
 
     useEffect(()=>{
 
-        console.log('rerender');
-        console.log(ind)
+        
     },[ind])
 
     function Mas(){
@@ -37,7 +36,7 @@ const Carousel = ({data, sentido}) => {
     }
 
 
-    console.log('data',data[0]);
+    
     
     return (
         <>

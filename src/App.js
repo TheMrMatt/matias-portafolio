@@ -1,14 +1,10 @@
 import React,{useState} from 'react';
 import './App.scss';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter, BrowserRouter as  Switch, Route} from 'react-router-dom'
 import { ProyectosProvider } from './Store/Contexto/ProyectosContext';
 import ProyectoPage from './Pages/ProyectoPage';
 import Home from './Pages/Home';
-import Nav from './Partes/Nav/Nav';
 import { ThemeProvider } from "styled-components";
-import sep from './Assets/imagenes/SeparadoresPrin.svg'
-import sep2 from './Assets/imagenes/Separadores2.svg'
-import sep3 from './Assets/imagenes/Separadores5.svg'
 import { DataProvider } from './Store/Contexto/DataContexto';
 
 const YellowTheme = {
@@ -45,17 +41,19 @@ const themes = {
 
 function App() {
 
-  const [dataS,setDataS] = useState('white')
+
   const [theme, setTheme] = useState("white")
   return (
     <>
       <ProyectosProvider>
         <DataProvider>
         <ThemeProvider theme={themes[theme]}>
-          <Switch>  
-            <Route path='/proyecto/:id' render={(props)=><ProyectoPage theme={theme} setTheme={setTheme} themes={themes[theme]}/>}/>
-            <Route path='/' render={(props)=><Home theme={theme} setTheme={setTheme} themes={themes[theme]}/>} exact/>
-          </Switch>
+          <BrowserRouter basename='/matias-portafolio'>
+            <Switch>  
+              <Route path='/proyecto/:id' render={(props)=><ProyectoPage theme={theme} setTheme={setTheme} themes={themes[theme]}/>}/>
+              <Route path='/' render={(props)=><Home theme={theme} setTheme={setTheme} themes={themes[theme]}/>} exact/>
+            </Switch>
+          </BrowserRouter>
         </ThemeProvider>  
         </DataProvider>
       </ProyectosProvider>

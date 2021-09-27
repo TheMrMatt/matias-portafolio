@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import se from '../../../Assets/imagenes/SeparadoresPrin.svg'
+
 
 export const Container = styled.div`
     width: 100%;

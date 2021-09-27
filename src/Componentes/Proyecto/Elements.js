@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {keyframes} from 'styled-components'
-import hover from '../../Assets/imagenes/nature-sprite.png'
 
 
 const animation1 = keyframes`
@@ -9,15 +8,6 @@ const animation1 = keyframes`
     }
     to{
         mask-position: 100% 0%;
-    }
-`
-
-const animationReverse = keyframes`
-    from{
-        mask-position: 100% 0%;
-    }
-    to{
-        mask-position: 0% 0%;
     }
 `
 

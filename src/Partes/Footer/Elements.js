@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
-import { FaGithubSquare, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaTwitch, FaDownload} from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaDownload} from "react-icons/fa";
 
 
 export const Container = styled.div`

@@ -1,10 +1,10 @@
 import React,{useContext, useEffect} from 'react'
 import { Container, Wrapper } from '../Componentes/Commons/Elements'
-import Proyecto from '../Componentes/Proyecto/Proyecto'
+
 import Resumen from '../Componentes/Resumen/Resumen'
-import Separador from '../Componentes/Separadores/Separador1/Separador'
+
 import Nav from '../Partes/Nav/Nav'
-import sep from '../Assets/imagenes/Separadores1.svg'
+
 import Contenido from '../Componentes/Contenido/Contenido'
 import Footer from '../Partes/Footer/Footer'
 import { useParams} from 'react-router';
@@ -20,14 +20,14 @@ import Loader from '../Componentes/Loader/Loader'
 const ProyectoPage = (props) => {
 
     const {Proyecto, getProyect, loading,Proyectos} = useContext(ProyectosContext)  
-    const {dat,temas,getTema,startLoading,} = useContext(DataContexto)
+    const {dat,temas,getTema} = useContext(DataContexto)
     const camp = useParams(); 
     useEffect(()=>{ 
         getProyect(camp, Proyectos)
         getTema(props.theme, temas)
-        console.log('data proy page', props.theme)
+        
     },[props])
-    console.log(Proyecto);
+    
 
     if(loading === true) return <Loader/>
     return (
@@ -35,7 +35,7 @@ const ProyectoPage = (props) => {
             <Container>
                 <ThemeChange props={props.setTheme}/>
                 <Wrapper>
-                    <Nav logo={true} imagen={dat[4]} logoI={dat[7]}/>
+                    <Nav  imagen={dat[4]} logoI={dat[7]}/>
                     <HeaderP data={Proyecto[0]} sentido={false}/>
                     <Resumen data={Proyecto[0].descripcion} link={Proyecto[0].link}/>
                     <SeparadorNo data={SeparadorData5} resp={true} imagen={dat[0]}/>

@@ -1,4 +1,4 @@
-import React,{useContext, useEffect} from 'react'
+import React,{useContext} from 'react'
 import {SectionInverse, Desc, Pro, Nombre, Identificador,TecsWrap, Tecs, ImagHover} from './Elements'
 import { useHistory } from "react-router-dom";
 import { ProyectosContext } from '../../Store/Contexto/ProyectosContext';
@@ -13,7 +13,7 @@ const Proyecto = ({data,sentido}) => {
         startLoading()
         history.push(`/proyecto/${url}`);
     }
-    console.log(data);
+    
 
     return (
         <>
@@ -26,7 +26,7 @@ const Proyecto = ({data,sentido}) => {
                     <Identificador>.{data.id}</Identificador>
                     <TecsWrap>
                         {data.tecnologia.map( tec => (
-                            <Tecs>{tec}</Tecs>    
+                            <Tecs key={tec}>{tec}</Tecs>    
                         ))}
                     </TecsWrap>
                 </Desc>

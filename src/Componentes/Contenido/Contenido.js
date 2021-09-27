@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from '../Carousel/Carousel'
-import { Carr, Desc, Imag, Section, Subtitulo, Titulo, Wrap } from './Elements'
+import { Desc, Imag, Section, Titulo, Wrap } from './Elements'
 
 const Contenido = ({data,sentido, divece, }) => {
     return (

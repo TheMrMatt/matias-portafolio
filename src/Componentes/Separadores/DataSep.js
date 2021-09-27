@@ -1,8 +1,7 @@
 import sep from '../../Assets/imagenes/SeparadoresPrin.svg'
 import sep2 from '../../Assets/imagenes/Separadores2.svg'
 import sep3 from '../../Assets/imagenes/Separadores5.svg'
-import sep4 from '../../Assets/imagenes/Separadores4.svg'
-import prob from '../Svgs/Svgs'
+
 
 export const SeparadorData1 = {
     sentido: false,

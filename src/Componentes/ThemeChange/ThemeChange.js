@@ -1,10 +1,10 @@
-import React,{useContext, useState} from 'react'
+import React,{useContext} from 'react'
 import { DataContexto } from '../../Store/Contexto/DataContexto'
 import {Wrapp, ThemeCh, ColorY, ColorB, ColorR, ColorW} from './Elements'
 
 const ThemeChange = ({props}) => {
 
-    const {data,temas,getTema,startLoading} = useContext(DataContexto)
+    const {data,startLoading} = useContext(DataContexto)
 
 
     function ChangeThemeY(){

@@ -5,7 +5,7 @@ import { ProyectosContext } from '../../../Store/Contexto/ProyectosContext'
 
 const Separador2 = ({data, url,imagen}) => {
     let history = useHistory();
-    const {Proyectos, loading, startLoading} = useContext(ProyectosContext)
+    const { startLoading} = useContext(ProyectosContext)
     useEffect(()=>{
 
     },[])

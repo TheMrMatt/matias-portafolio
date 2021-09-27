@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from 'react-scroll';
-import lineas from '../../Assets/imagenes/lineas8.svg'
-import logo1 from '../../Assets/imagenes/Logo.svg'
+
 import { Link as LinkR } from 'react-router-dom';
 
 export const NavContainer = styled.div`

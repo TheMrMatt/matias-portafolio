@@ -1,6 +1,6 @@
 import React from 'react'
 import { Dec, Container, ContIlustracion, Ilustracion, DecCont } from './Elements'
-import img from '../../../Assets/imagenes/Separadores4.svg'
+
 
 
 const SeparadorCerrador = ({sentido, imagen, diag}) => {

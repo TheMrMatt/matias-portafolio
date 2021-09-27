@@ -1,7 +1,5 @@
 import React,{useEffect, useState} from 'react'
 import {NavContainer, ProyectCont, ContactCont, AboutCont, IconCont, Logo, LogoCont, LogoPag} from './Elementes'
-import Diag from '../../Assets/imagenes/linesDiagonales1.svg'
-import log from '../../Assets/imagenes/Logo.svg'
 
 
 const Nav = ({logoI, imagen, logo}) => {
