@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/matias-portafolio/static/css/main.283ffd98.chunk.css",
-    "main.js": "/matias-portafolio/static/js/main.4f3344e4.chunk.js",
-    "main.js.map": "/matias-portafolio/static/js/main.4f3344e4.chunk.js.map",
+    "main.js": "/matias-portafolio/static/js/main.040ef61f.chunk.js",
+    "main.js.map": "/matias-portafolio/static/js/main.040ef61f.chunk.js.map",
     "runtime-main.js": "/matias-portafolio/static/js/runtime-main.6f047453.js",
     "runtime-main.js.map": "/matias-portafolio/static/js/runtime-main.6f047453.js.map",
     "static/css/2.f0f51d32.chunk.css": "/matias-portafolio/static/css/2.f0f51d32.chunk.css",
-    "static/js/2.e9dd72df.chunk.js": "/matias-portafolio/static/js/2.e9dd72df.chunk.js",
-    "static/js/2.e9dd72df.chunk.js.map": "/matias-portafolio/static/js/2.e9dd72df.chunk.js.map",
+    "static/js/2.6d60fd71.chunk.js": "/matias-portafolio/static/js/2.6d60fd71.chunk.js",
+    "static/js/2.6d60fd71.chunk.js.map": "/matias-portafolio/static/js/2.6d60fd71.chunk.js.map",
     "index.html": "/matias-portafolio/index.html",
     "static/css/2.f0f51d32.chunk.css.map": "/matias-portafolio/static/css/2.f0f51d32.chunk.css.map",
     "static/css/main.283ffd98.chunk.css.map": "/matias-portafolio/static/css/main.283ffd98.chunk.css.map",
-    "static/js/2.e9dd72df.chunk.js.LICENSE.txt": "/matias-portafolio/static/js/2.e9dd72df.chunk.js.LICENSE.txt",
+    "static/js/2.6d60fd71.chunk.js.LICENSE.txt": "/matias-portafolio/static/js/2.6d60fd71.chunk.js.LICENSE.txt",
     "static/media/Contexto1.d76da2ec.png": "/matias-portafolio/static/media/Contexto1.d76da2ec.png",
     "static/media/Contexto2.ef2a4ad4.png": "/matias-portafolio/static/media/Contexto2.ef2a4ad4.png",
     "static/media/Contexto3.35deb770.png": "/matias-portafolio/static/media/Contexto3.35deb770.png",
@@ -70,7 +70,6 @@
     "static/media/MLobo7.f8f85f18.png": "/matias-portafolio/static/media/MLobo7.f8f85f18.png",
     "static/media/MatiasRojas.b80b9fbe.pdf": "/matias-portafolio/static/media/MatiasRojas.b80b9fbe.pdf",
     "static/media/App.scss": "/matias-portafolio/static/media/MonumentExtended.db74f7a5.otf",
-    "static/media/Separadores1.7e87dae7.svg": "/matias-portafolio/static/media/Separadores1.7e87dae7.svg",
     "static/media/Separadores1B.5fc69972.svg": "/matias-portafolio/static/media/Separadores1B.5fc69972.svg",
     "static/media/Separadores1N.6b541ba3.svg": "/matias-portafolio/static/media/Separadores1N.6b541ba3.svg",
     "static/media/Separadores2.cdf57ae0.svg": "/matias-portafolio/static/media/Separadores2.cdf57ae0.svg",
@@ -86,7 +85,6 @@
     "static/media/aste.f7ed827c.svg": "/matias-portafolio/static/media/aste.f7ed827c.svg",
     "static/media/asteB.6d857aeb.svg": "/matias-portafolio/static/media/asteB.6d857aeb.svg",
     "static/media/asteN.0745eab6.svg": "/matias-portafolio/static/media/asteN.0745eab6.svg",
-    "static/media/astericos.5d0d4160.svg": "/matias-portafolio/static/media/astericos.5d0d4160.svg",
     "static/media/diag.6e884064.svg": "/matias-portafolio/static/media/diag.6e884064.svg",
     "static/media/diagB.ca14e0d6.svg": "/matias-portafolio/static/media/diagB.ca14e0d6.svg",
     "static/media/diagN.1e7c8694.svg": "/matias-portafolio/static/media/diagN.1e7c8694.svg",
@@ -96,18 +94,16 @@
     "static/media/letras.e58fc751.svg": "/matias-portafolio/static/media/letras.e58fc751.svg",
     "static/media/letrasB.119d1d1c.svg": "/matias-portafolio/static/media/letrasB.119d1d1c.svg",
     "static/media/letrasN.60ed83cd.svg": "/matias-portafolio/static/media/letrasN.60ed83cd.svg",
-    "static/media/lineas8.a8611745.svg": "/matias-portafolio/static/media/lineas8.a8611745.svg",
     "static/media/linesDiagonales1.7b9f5b7e.svg": "/matias-portafolio/static/media/linesDiagonales1.7b9f5b7e.svg",
     "static/media/linesDiagonales1B.daa54ce0.svg": "/matias-portafolio/static/media/linesDiagonales1B.daa54ce0.svg",
     "static/media/linesDiagonales1N.74d06553.svg": "/matias-portafolio/static/media/linesDiagonales1N.74d06553.svg",
-    "static/media/mia.d801e946.jpg": "/matias-portafolio/static/media/mia.d801e946.jpg",
-    "static/media/nature-sprite.d49281ab.png": "/matias-portafolio/static/media/nature-sprite.d49281ab.png"
+    "static/media/mia.d801e946.jpg": "/matias-portafolio/static/media/mia.d801e946.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6f047453.js",
     "static/css/2.f0f51d32.chunk.css",
-    "static/js/2.e9dd72df.chunk.js",
+    "static/js/2.6d60fd71.chunk.js",
     "static/css/main.283ffd98.chunk.css",
-    "static/js/main.4f3344e4.chunk.js"
+    "static/js/main.040ef61f.chunk.js"
   ]
 }
