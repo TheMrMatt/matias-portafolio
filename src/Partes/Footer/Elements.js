@@ -111,8 +111,8 @@ export const Wrapp = styled.div`
     }
 `
 
-export const Red = styled(LinkR)`
-    
+export const Red = styled.a`
+    text-decoration: none;    
 `
 export const Insta = styled(FaInstagramSquare)`
     width: 60px;

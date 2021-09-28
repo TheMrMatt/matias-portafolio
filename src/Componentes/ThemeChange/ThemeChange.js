@@ -37,7 +37,7 @@ const ThemeChange = ({props}) => {
             <Wrapp>
                 <ThemeCh>
                     <ColorY onClick={()=>ChangeThemeY()}/>
-                    <ColorR onClick={()=>ChangeThemeR()}/>
+                    
                     <ColorB onClick={()=>ChangeThemeB()}/>
                     <ColorW onClick={()=>ChangeThemeW()}/>
                 </ThemeCh>

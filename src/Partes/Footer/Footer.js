@@ -11,18 +11,18 @@ const Footer = () => {
                     <RedesWrap>
                        
                         <Wrapp>
-                            <Red to={{ pathname:'https://www.instagram.com/matiase98/' } } target="_blank">
+                            <Red href='https://www.instagram.com/matiase98/' target="_blank">
                                 <Insta />    
                             </Red>
-                            <Red to={{pathname:'https://twitter.com/Matiaserojas98'}} target="_blank">
+                            <Red href='https://twitter.com/Matiaserojas98' target="_blank">
                                 <Twi />
                             </Red>
                         </Wrapp>
                         <Wrapp>
-                            <Red to={{pathname:'https://www.linkedin.com/in/-matiasrojas/'}} target="_blank">
+                            <Red href='https://www.linkedin.com/in/-matiasrojas/' target="_blank">
                                 <Link />
                             </Red>
-                            <Red to={{pathname:'https://github.com/TheMrMatt'}} target="_blank">
+                            <Red href='https://github.com/TheMrMatt' target="_blank">
                                 <GitHub />
                             </Red> 
                         </Wrapp>
