@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './App.scss';
-import {BrowserRouter, BrowserRouter as  Switch, Route} from 'react-router-dom'
+import {BrowserRouter as  Router, Switch, Route} from 'react-router-dom'
 import { ProyectosProvider } from './Store/Contexto/ProyectosContext';
 import ProyectoPage from './Pages/ProyectoPage';
 import Home from './Pages/Home';
@@ -48,12 +48,12 @@ function App() {
       <ProyectosProvider>
         <DataProvider>
         <ThemeProvider theme={themes[theme]}>
-          <BrowserRouter basename='/matias-portafolio'>
+          <Router basename='/matias-portafolio'>
             <Switch>  
               <Route path='/proyecto/:id' render={(props)=><ProyectoPage theme={theme} setTheme={setTheme} themes={themes[theme]}/>}/>
               <Route path='/' render={(props)=><Home theme={theme} setTheme={setTheme} themes={themes[theme]}/>} exact/>
             </Switch>
-          </BrowserRouter>
+          </Router>
         </ThemeProvider>  
         </DataProvider>
       </ProyectosProvider>
