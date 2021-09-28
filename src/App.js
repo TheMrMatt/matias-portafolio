@@ -48,7 +48,7 @@ function App() {
       <ProyectosProvider>
         <DataProvider>
         <ThemeProvider theme={themes[theme]}>
-          <Router basename='/matias-portafolio'>
+          <Router >
             <Switch>  
               <Route path='/proyecto/:id' render={(props)=><ProyectoPage theme={theme} setTheme={setTheme} themes={themes[theme]}/>}/>
               <Route path='/' render={(props)=><Home theme={theme} setTheme={setTheme} themes={themes[theme]}/>} exact/>
