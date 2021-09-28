@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/matias-portafolio/static/css/main.283ffd98.chunk.css",
-    "main.js": "/matias-portafolio/static/js/main.5cfba72c.chunk.js",
-    "main.js.map": "/matias-portafolio/static/js/main.5cfba72c.chunk.js.map",
+    "main.js": "/matias-portafolio/static/js/main.59a1c435.chunk.js",
+    "main.js.map": "/matias-portafolio/static/js/main.59a1c435.chunk.js.map",
     "runtime-main.js": "/matias-portafolio/static/js/runtime-main.6f047453.js",
     "runtime-main.js.map": "/matias-portafolio/static/js/runtime-main.6f047453.js.map",
     "static/css/2.f0f51d32.chunk.css": "/matias-portafolio/static/css/2.f0f51d32.chunk.css",
-    "static/js/2.4a3c5f91.chunk.js": "/matias-portafolio/static/js/2.4a3c5f91.chunk.js",
-    "static/js/2.4a3c5f91.chunk.js.map": "/matias-portafolio/static/js/2.4a3c5f91.chunk.js.map",
+    "static/js/2.6054e2d0.chunk.js": "/matias-portafolio/static/js/2.6054e2d0.chunk.js",
+    "static/js/2.6054e2d0.chunk.js.map": "/matias-portafolio/static/js/2.6054e2d0.chunk.js.map",
     "index.html": "/matias-portafolio/index.html",
     "static/css/2.f0f51d32.chunk.css.map": "/matias-portafolio/static/css/2.f0f51d32.chunk.css.map",
     "static/css/main.283ffd98.chunk.css.map": "/matias-portafolio/static/css/main.283ffd98.chunk.css.map",
-    "static/js/2.4a3c5f91.chunk.js.LICENSE.txt": "/matias-portafolio/static/js/2.4a3c5f91.chunk.js.LICENSE.txt",
+    "static/js/2.6054e2d0.chunk.js.LICENSE.txt": "/matias-portafolio/static/js/2.6054e2d0.chunk.js.LICENSE.txt",
     "static/media/Contexto1.d76da2ec.png": "/matias-portafolio/static/media/Contexto1.d76da2ec.png",
     "static/media/Contexto2.ef2a4ad4.png": "/matias-portafolio/static/media/Contexto2.ef2a4ad4.png",
     "static/media/Contexto3.35deb770.png": "/matias-portafolio/static/media/Contexto3.35deb770.png",
@@ -68,7 +68,7 @@
     "static/media/MLobo5.bab80794.png": "/matias-portafolio/static/media/MLobo5.bab80794.png",
     "static/media/MLobo6.21f8094d.png": "/matias-portafolio/static/media/MLobo6.21f8094d.png",
     "static/media/MLobo7.f8f85f18.png": "/matias-portafolio/static/media/MLobo7.f8f85f18.png",
-    "static/media/MatiasRojas.b80b9fbe.pdf": "/matias-portafolio/static/media/MatiasRojas.b80b9fbe.pdf",
+    "static/media/MatiasRojas.536b4086.pdf": "/matias-portafolio/static/media/MatiasRojas.536b4086.pdf",
     "static/media/App.scss": "/matias-portafolio/static/media/MonumentExtended.db74f7a5.otf",
     "static/media/Separadores1B.5fc69972.svg": "/matias-portafolio/static/media/Separadores1B.5fc69972.svg",
     "static/media/Separadores1N.6b541ba3.svg": "/matias-portafolio/static/media/Separadores1N.6b541ba3.svg",
@@ -102,8 +102,8 @@
   "entrypoints": [
     "static/js/runtime-main.6f047453.js",
     "static/css/2.f0f51d32.chunk.css",
-    "static/js/2.4a3c5f91.chunk.js",
+    "static/js/2.6054e2d0.chunk.js",
     "static/css/main.283ffd98.chunk.css",
-    "static/js/main.5cfba72c.chunk.js"
+    "static/js/main.59a1c435.chunk.js"
   ]
 }
