@@ -39,7 +39,7 @@ const Home = (props) => {
                 <ThemeChange props={props.setTheme}/>
                
                 <Wrapper>
-                    <Nav  imagen={dat[4]} logoI={dat[7]}/>
+                    <Nav  imagen={dat[4]} logoI={dat[7]} logo={false}/>
                     <HeaderHome imagen={dat[6]} letra={dat[8]} fondo={dat[9]}/>
                     <Separador clas='about' data={SeparadorData1} resp={true} imagen={dat[0]}/>
                     <About imagen={dat[5]}/>

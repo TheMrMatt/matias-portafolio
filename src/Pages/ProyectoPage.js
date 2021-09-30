@@ -35,7 +35,7 @@ const ProyectoPage = (props) => {
             <Container>
                 <ThemeChange props={props.setTheme}/>
                 <Wrapper>
-                    <Nav  imagen={dat[4]} logoI={dat[7]}/>
+                    <Nav  imagen={dat[4]} logoI={dat[7]} logo={true}/>
                     <HeaderP data={Proyecto[0]} sentido={false}/>
                     <Resumen data={Proyecto[0].descripcion} link={Proyecto[0].link}/>
                     <SeparadorNo data={SeparadorData5} resp={true} imagen={dat[0]}/>
