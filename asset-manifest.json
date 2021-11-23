@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f38c28fe.chunk.css",
-    "main.js": "/static/js/main.47c12209.chunk.js",
-    "main.js.map": "/static/js/main.47c12209.chunk.js.map",
+    "main.js": "/static/js/main.f193d4fa.chunk.js",
+    "main.js.map": "/static/js/main.f193d4fa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e6048516.js",
     "runtime-main.js.map": "/static/js/runtime-main.e6048516.js.map",
     "static/css/2.f0f51d32.chunk.css": "/static/css/2.f0f51d32.chunk.css",
@@ -18,6 +18,8 @@
     "static/media/Contexto4.021292e1.png": "/static/media/Contexto4.021292e1.png",
     "static/media/Contexto5.02c4fe0d.png": "/static/media/Contexto5.02c4fe0d.png",
     "static/media/Contexto6.9b13145c.png": "/static/media/Contexto6.9b13145c.png",
+    "static/media/DPokemon1.7061e343.png": "/static/media/DPokemon1.7061e343.png",
+    "static/media/DPokemon2.1d0bc72b.png": "/static/media/DPokemon2.1d0bc72b.png",
     "static/media/DecoracionAbout.a68c6733.svg": "/static/media/DecoracionAbout.a68c6733.svg",
     "static/media/DecoracionAboutB.2e8f3bcb.svg": "/static/media/DecoracionAboutB.2e8f3bcb.svg",
     "static/media/DecoracionAboutN.3eac546f.svg": "/static/media/DecoracionAboutN.3eac546f.svg",
@@ -42,6 +44,8 @@
     "static/media/FLobo2.9661142a.png": "/static/media/FLobo2.9661142a.png",
     "static/media/FLobo3.58af4859.png": "/static/media/FLobo3.58af4859.png",
     "static/media/FLobo4.ee897537.png": "/static/media/FLobo4.ee897537.png",
+    "static/media/FPokemon1.60ae8307.png": "/static/media/FPokemon1.60ae8307.png",
+    "static/media/FPokemon2.1103bbd8.png": "/static/media/FPokemon2.1103bbd8.png",
     "static/media/Lobo1.dfe1df37.png": "/static/media/Lobo1.dfe1df37.png",
     "static/media/Lobo2.a0e8c6c8.png": "/static/media/Lobo2.a0e8c6c8.png",
     "static/media/Lobo3.2f6d4f41.png": "/static/media/Lobo3.2f6d4f41.png",
@@ -68,6 +72,8 @@
     "static/media/MLobo5.bab80794.png": "/static/media/MLobo5.bab80794.png",
     "static/media/MLobo6.21f8094d.png": "/static/media/MLobo6.21f8094d.png",
     "static/media/MLobo7.f8f85f18.png": "/static/media/MLobo7.f8f85f18.png",
+    "static/media/MPokemon1.d512a962.png": "/static/media/MPokemon1.d512a962.png",
+    "static/media/MPokemon2.cee340c2.png": "/static/media/MPokemon2.cee340c2.png",
     "static/media/MatiasRojas.536b4086.pdf": "/static/media/MatiasRojas.536b4086.pdf",
     "static/media/App.scss": "/static/media/MonumentExtended.db74f7a5.otf",
     "static/media/Separadores1B.5fc69972.svg": "/static/media/Separadores1B.5fc69972.svg",
@@ -104,6 +110,6 @@
     "static/css/2.f0f51d32.chunk.css",
     "static/js/2.670d9abb.chunk.js",
     "static/css/main.f38c28fe.chunk.css",
-    "static/js/main.47c12209.chunk.js"
+    "static/js/main.f193d4fa.chunk.js"
   ]
 }
