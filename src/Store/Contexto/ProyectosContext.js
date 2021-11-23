@@ -50,18 +50,20 @@ import FDoritos1 from '../../Assets/imagenes/Proyectos/Doritos/Figma/FDoritos1.p
 import FDoritos2 from '../../Assets/imagenes/Proyectos/Doritos/Figma/FDoritos2.png'
 import FDoritos3 from '../../Assets/imagenes/Proyectos/Doritos/Figma/FDoritos3.png'
 import FDoritos4 from '../../Assets/imagenes/Proyectos/Doritos/Figma/FDoritos4.png'
-
-
-
-
+import DPokemon1 from '../../Assets/imagenes/Proyectos/Pokemon/Desktop/DPokemon1.png'
+import DPokemon2 from '../../Assets/imagenes/Proyectos/Pokemon/Desktop/DPokemon2.png'
+import MPokemon1 from '../../Assets/imagenes/Proyectos/Pokemon/Mobile/MPokemon1.png'
+import MPokemon2 from '../../Assets/imagenes/Proyectos/Pokemon/Mobile/MPokemon2.png'
+import FPokemon1 from '../../Assets/imagenes/Proyectos/Pokemon/Figma/FPokemon1.png'
+import FPokemon2 from '../../Assets/imagenes/Proyectos/Pokemon/Figma/FPokemon2.png'
 
 
 const initialState = {
-    Proyectos:[
+    Proyectos: [
         {
             titulo: 'Contexto',
             id: '01',
-            tecnologia: ['React.js','Mongo Db', 'Node.js','Express'],
+            tecnologia: ['React.js', 'Mongo Db', 'Node.js', 'Express'],
             descripcion: `Este proyecto es un sitio web de noticias. 
             El objetivo de este proyecto fue hacer una app con el stack MERN, en el cual tuvieran distintos tipos de usuarios con distintos tipos de accesos y privilegios. 
             El mismo cuenta con 3 tipos de usuarios, el normal que serían los usuarios comunes, el autor que tiene acceso al dashboard donde puede publicar un artículo o editar los artículos que sean de su autoría. Por último está el usuario admin que puede publicar y editar cualquier articulo sin importar si no es de su autoría, también puede editar las portadas de cada sección a su gusto.  `,
@@ -71,9 +73,19 @@ const initialState = {
             link: ''
         },
         {
-            titulo: `El lobo de Wall Street `,
+            titulo: 'Pokemon',
             id: '02',
-            tecnologia: ['React.js','Gspa','JavaScript'],
+            tecnologia: ['Angular.js', 'Typescript', 'NGrx'],
+            descripcion: 'wqdadsadw',
+            imgDesk: [DPokemon1, DPokemon2],
+            imgMobile: [MPokemon1, MPokemon2],
+            imgFigma: [FPokemon1, FPokemon2],
+            link: 'https://pokemonappmatias.web.app/'
+        },
+        {
+            titulo: `El lobo de Wall Street `,
+            id: '03',
+            tecnologia: ['React.js', 'Gspa', 'JavaScript'],
             descripcion: `Este proyecto es una mini experiencia de la película El lobo de Wall street, la cual tiene como objetivo de mostrar la información de la película de una manera distinta.`,
             imgDesk: [Lobo1, Lobo2, Lobo3, Lobo4, Lobo5],
             imgMobile: [MLobo1, MLobo2, MLobo3, MLobo4, MLobo5, MLobo6, MLobo7],
@@ -82,16 +94,16 @@ const initialState = {
         },
         {
             titulo: 'Doritos',
-            id: '03',
-            tecnologia: ['React.js','Three.js','JavaScript'],
+            id: '04',
+            tecnologia: ['React.js', 'Three.js', 'JavaScript'],
             descripcion: `Este proyecto es un sitio web informativo del producto Doritos. En el cual la presentación del producto es en un escenario 3d.  `,
-            imgDesk: [Doritos1,Doritos2,Doritos3,Doritos4,Doritos5,Doritos6],
+            imgDesk: [Doritos1, Doritos2, Doritos3, Doritos4, Doritos5, Doritos6],
             imgMobile: [MDoritos1, MDoritos2, MDoritos3, MDoritos4, MDoritos5],
             imgFigma: [FDoritos1, FDoritos2, FDoritos3, FDoritos4],
             link: 'https://doritos3dweb.herokuapp.com/'
         }
     ],
-    Proyecto:{},
+    Proyecto: {},
     loading: true
 }
 
@@ -99,18 +111,18 @@ const initialState = {
 export const ProyectosContext = createContext(initialState)
 
 
-export const ProyectosProvider = ({children}) => {
+export const ProyectosProvider = ({ children }) => {
 
     const [state, dispatch] = useReducer(ProyectosReducers, initialState);
 
-    function getProyect(iD, proy){
+    function getProyect(iD, proy) {
         const data = proy.filter(p => p.id === iD.id)
 
-        
+
         dispatch({
-            type:'GET_PROY',
+            type: 'GET_PROY',
             payload: data
-        })    
+        })
     }
 
     function startLoading() {
@@ -119,7 +131,7 @@ export const ProyectosProvider = ({children}) => {
         });
     }
 
-    return(
+    return (
         <ProyectosContext.Provider value={{
             Proyectos: state.Proyectos,
             Proyecto: state.Proyecto,
