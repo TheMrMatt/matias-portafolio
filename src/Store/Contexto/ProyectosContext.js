@@ -76,7 +76,7 @@ const initialState = {
             titulo: 'Pokemon',
             id: '02',
             tecnologia: ['Angular.js', 'Typescript', 'NGrx'],
-            descripcion: 'wqdadsadw',
+            descripcion: '',
             imgDesk: [DPokemon1, DPokemon2],
             imgMobile: [MPokemon1, MPokemon2],
             imgFigma: [FPokemon1, FPokemon2],
