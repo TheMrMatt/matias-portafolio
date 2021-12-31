@@ -61,16 +61,16 @@ import FPokemon2 from '../../Assets/imagenes/Proyectos/Pokemon/Figma/FPokemon2.p
 const initialState = {
     Proyectos: [
         {
-            titulo: 'Contexto',
+            titulo: 'Contexto Usuario',
             id: '01',
             tecnologia: ['React.js', 'Mongo Db', 'Node.js', 'Express'],
             descripcion: `Este proyecto es un sitio web de noticias. 
-            El objetivo de este proyecto fue hacer una app con el stack MERN, en el cual tuvieran distintos tipos de usuarios con distintos tipos de accesos y privilegios. 
-            El mismo cuenta con 3 tipos de usuarios, el normal que serían los usuarios comunes, el autor que tiene acceso al dashboard donde puede publicar un artículo o editar los artículos que sean de su autoría. Por último está el usuario admin que puede publicar y editar cualquier articulo sin importar si no es de su autoría, también puede editar las portadas de cada sección a su gusto.  `,
+            El objetivo de este proyecto fue hacer una app con el stack MERN, el cual esta dividido en dos apps, cliente y usuario. 
+            Esta es la app usuario, donde podemos ver todas las noticias y navegar entre las distintas categorias, para entrar en esta app solo basta con registrarse no se necesita ningun premiso.  `,
             imgDesk: [Contexto1, Contexto2, Contexto3, Contexto4, Contexto5, Contexto6],
             imgMobile: [MContexto1, MContexto2, MContexto3, MContexto4, MContexto5, MContexto6],
             imgFigma: [FContexto1, FContexto2, FContexto3, FContexto4, FContexto5, FContexto6, FContexto7],
-            link: ''
+            link: 'https://wizardly-heyrovsky-1febbb.netlify.app'
         },
         {
             titulo: 'Pokemon',
